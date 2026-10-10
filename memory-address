@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x = 10;
+    int*p = &x;
+    cout << x;
+    cout<<p;
+    cout<<*p;
+    *p = 20;
+    cout<<*p;
+    cout<<p;
+    cout<<p+1;
+    return 0;
+}
